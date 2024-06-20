@@ -1,48 +1,13 @@
+# Laurel
 
-<img src="https://cdn.dribbble.com/users/3231685/screenshots/14445192/media/23f9cf6d07617635d87d3abb52237af9.png" width="400" height="auto">
+A landing page template.
 
-# Free HTML5 & SASS Landing Template
+* [Getting started](#getting-started)
 
-Modern free landing page for SaaS software or app! 
+## Getting started
+* First, ensure that node.js & npm are both installed. If not, choose your OS and installation method from [this page](https://nodejs.org/en/download/package-manager/) and follow the instructions.
+* This template requires Node 14 to work. You can handle multiple node versions with [NVM](https://github.com/nvm-sh/nvm) 
+* Next, use your command line to enter your project directory.
+* This template comes with a ready-to-use package file called `package-sample.json`. You just need to rename it to `package.json`, then run `npm install` to install all of the dependencies into your project.
 
-Custom designed and developed by me. 
-
-[Checkout the live demo](https://sanderdebr.github.io/html-sass-landing-template/) | [Checkout the custom design](https://dribbble.com/shots/14445192-Landing-page-template)
-
-<hr/>
-
-### Folder structure
-
-```
-css                   // output of compiled SASS
-img
-sass
-|-- components        // all components
-|-- _base.scss        // general styles
-|-- _layout.scss      // structuring components
-|-- _typography.scss  // type styles
-|-- main.scss         // importing all other files
-index.html
-```
-
-
-### How to use
-Make sure you have node.js installed on your machine. Run `npm start` in the root directory to startup the dev server.
-
-<hr/>
-
-### How to build
-This template compiles SASS to optimized CSS code. Run the command `npm build:css` to create the compiled CSS.
-
-<hr/>
-
-### Techniques
-<ul>
-  <li>HTML5 & CSS3 with animations</li>
-  <li>BEM CSS conventions</li>
-  <li>Independent components</li>
-  <li>Fully responsive</li>
-  <li>CSS Flexbox & Grid</li>
-  <li>Pure CSS menu toggle</li>
-  <li>Mobile first</li>
-</ul>
+You're ready to go! Run any task by typing `npm run task` (where "task" is the name of the task in the `"scripts"` object). The most useful task for rapid development is `watch`. It will start a new server, open up a browser and watch for any SCSS or JS changes in the `src` directory; once it compiles those changes, the browser will automatically inject the changed file(s)!
